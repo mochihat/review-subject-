@@ -4,7 +4,7 @@ Môn Differential Equations (微分方程) – Jerry Tai (戴立嘉), NYCU, Fall
 
 ## Phạm vi thi và thông tin chung
 
-Midterm I chiếm 25% điểm. Slide không nêu phạm vi thi, nên đề cương này giả định trọng tâm là phương trình bậc nhất (Lecture 2–7), còn Lecture 8–10 (bậc hai) có thể ra.
+Midterm I chiếm 25% điểm, gồm dưới 30 câu trắc nghiệm. Phạm vi thi là toàn bộ Lecture 1–10: phương trình bậc nhất (Lecture 2–7) và phương trình bậc hai hệ số hằng (Lecture 8–10).
 
 - Ngày thi: cần xem thông báo trên E3 (e3.nycu.edu.tw).
 - Không có homework. Thầy nói một số câu thi có thể lấy từ giáo trình Nagle, Saff, Snider (bản 9), nên hãy luyện bài tập cuối mỗi mục tương ứng.
@@ -14,7 +14,7 @@ Midterm I chiếm 25% điểm. Slide không nêu phạm vi thi, nên đề cươ
 
 ## Checklist chủ đề
 
-Bốn kỹ năng giải của bậc nhất có ưu tiên cao nhất: tách biến, thừa số tích phân, exact và bài toán bể muối. Tích vào khi bạn tự giải được mà không nhìn lời giải.
+Ưu tiên cao nhất là các kỹ năng giải: tách biến, thừa số tích phân, exact, bể muối và phương trình bậc hai hệ số hằng. Tích vào khi bạn tự giải được mà không nhìn lời giải.
 
 **Ưu tiên cao (gần như chắc chắn ra thi)**
 
@@ -32,7 +32,7 @@ Bốn kỹ năng giải của bậc nhất có ưu tiên cao nhất: tách biế
 - [ ] Hành vi dài hạn của nghiệm tuyến tính bằng giới hạn (L5)
 - [ ] Lãi kép liên tục có gửi thêm hoặc rút tiền (L7)
 
-**Có thể ra (nếu phạm vi gồm bậc hai)**
+**Ưu tiên cao: bậc hai**
 
 - [ ] Phương trình đặc trưng, nghiệm thực phân biệt và 2 điều kiện đầu (L8)
 - [ ] Nghiệm phức và công thức Euler (L9)
@@ -78,7 +78,7 @@ Gặp một phương trình bậc nhất, đầu tiên kiểm tra tách biến, 
 3. Giải bằng thừa số tích phân (hoặc tách biến nếu V không đổi).
 4. Giới hạn Q_L = nồng độ vào × V khi V không đổi. Dùng logarit để tìm thời gian T.
 
-**Dạng 6 (nếu thi bậc hai): ay'' + by' + cy = 0**
+**Dạng 6: ay'' + by' + cy = 0**
 
 1. Viết ar² + br + c = 0 và tính Δ = b² − 4ac.
 2. Δ > 0 cho c₁e^(r₁t) + c₂e^(r₂t). Δ < 0 cho e^(λt)(c₁ cos μt + c₂ sin μt). Δ = 0 cho (c₁ + c₂t)e^(rt).
@@ -124,7 +124,7 @@ Có 12 bài theo thứ tự các dạng ở trên, do mình tự soạn. Hãy t�
 9. Bể 200 L nước sạch. Nước muối 2 g/L chảy vào 5 L/min, hỗn hợp chảy ra 5 L/min. Tìm Q(t), Q_L, và thời điểm Q = 200 g.
    - Đáp án: Q' = 10 − Q/40, Q(0) = 0. Suy ra Q = 400(1 − e^(−t/40)), Q_L = 400 g, và t = 40 ln 2 ≈ 27.7 phút.
 
-**Bậc hai (L8–10, nếu có trong phạm vi)**
+**Bậc hai (L8–10)**
 
 10. y'' − y' − 6y = 0, y(0) = 1, y'(0) = 8.
     - Đáp án: r = 3, −2. y = 2e^(3t) − e^(−2t).
@@ -133,7 +133,56 @@ Có 12 bài theo thứ tự các dạng ở trên, do mình tự soạn. Hãy t�
 12. y'' − 6y' + 9y = 0, y(0) = 1, y'(0) = 5.
     - Đáp án: nghiệm kép r = 3. y = (1 + 2t) e^(3t).
 
-Nên làm thêm các bài trong giáo trình Nagle–Saff–Snider: mục 2.2 (tách biến), 2.3 (tuyến tính), 2.4 (exact), 3.2 (bể trộn), 1.3 (trường hướng). Số mục này theo trí nhớ của mình, bạn nên đối chiếu với mục lục.
+## Bài tập trong sách cần làm
+
+Làm theo thứ tự ưu tiên dưới đây, dùng sách Zill & Cullen, *Differential Equations with Boundary-Value Problems* (file đã có trong Downloads). Mức 1 và mức 2 đều bắt buộc, tổng 81 bài, mỗi bài khoảng 3–5 phút, tổng cộng khoảng 5–6 giờ.
+
+Thầy dùng sách Nagle–Saff–Snider nhưng máy bạn không có cuốn đó. Zill có cùng các dạng bài, nên dùng thay được. Mình chọn chủ yếu bài số lẻ vì đáp án có ở cuối sách (từ trang ANS-1), để bạn tự kiểm tra.
+
+**Mức 1: bắt buộc, bậc nhất (Lecture 2–7)**
+
+| Mục trong Zill | Trang | Bài | Lecture | Dạng |
+| --- | --- | --- | --- | --- |
+| 1.1 Definitions and Terminology | 10 | 1, 3, 5, 7 | L2 | Phân loại bậc, tuyến tính |
+| 1.1 | 10 | 11, 13, 15 | L2 | Kiểm tra một hàm có phải là nghiệm |
+| 1.1 | 10 | 27, 29, 31 | L2, L8 | Tìm m để y = e^(mx) hoặc x^m là nghiệm |
+| 1.1 | 10 | 33, 35 | L3 | Tìm nghiệm hằng |
+| 2.1 Solution Curves Without a Solution | 41 | 13 | L3 | Đọc trường hướng từ hình |
+| 2.1 | 41 | 21, 23, 25, 27 | L3 | Điểm tới hạn, xét ổn định |
+| 2.2 Separable Variables | 50 | 1, 3, 5, 7, 9, 11, 13, 15 | L4 | Nghiệm tổng quát |
+| 2.2 | 50 | 23, 25 | L4 | Bài toán giá trị đầu |
+| 2.3 Linear Equations | 60 | 1, 3, 5, 7, 9, 11, 13, 15 | L5 | Nghiệm tổng quát |
+| 2.3 | 60 | 25, 27 | L5 | Bài toán giá trị đầu |
+| 2.4 Exact Equations | 68 | 1, 3, 5, 7, 9, 11 | L6 | Kiểm tra exact và giải |
+| 2.4 | 68 | 21, 23 | L6 | Bài toán giá trị đầu |
+| 2.4 | 68 | 27 | L6 | Tìm k để phương trình exact |
+| 3.1 Linear Models | 89 | 21, 22, 23, 24, 25 | L7 | Bể trộn (mixture) |
+| 3.1 | 89 | 10 | L7 | Lãi kép liên tục |
+| Chapter 2 in Review | 80 | 1, 2, 3, 4 | L3–6 | Câu hỏi khái niệm, điền nhanh |
+| Chapter 2 in Review | 80 | 11, 13, 15, 17, 19 | L4–6 | Bài trộn lẫn, phải tự nhận ra dạng |
+
+**Mức 2: bắt buộc, bậc hai (Lecture 8–10)**
+
+| Mục trong Zill | Trang | Bài | Lecture | Dạng |
+| --- | --- | --- | --- | --- |
+| 4.3 Homogeneous Linear Equations with Constant Coefficients | 138 | 1, 3, 5, 7, 9, 11, 13 | L8–10 | Nghiệm tổng quát, đủ 3 trường hợp Δ |
+| 4.3 | 138 | 29, 31, 33 | L8–10 | Bài toán giá trị đầu |
+| 4.3 | 138 | 43–48 | L8–10 | Ghép phương trình với đồ thị nghiệm, rất giống câu trắc nghiệm |
+| 4.2 Reduction of Order | 132 | 1, 3, 5, 7 | L10 | Giảm bậc khi biết một nghiệm |
+
+**Mức 3: nếu còn thời gian**
+
+- Zill 2.2, 2.3, 2.4: các bài số lẻ còn lại trong phần nghiệm tổng quát.
+- Sách Edwards & Penney (cũng có trong Downloads) để đổi gió: mục 1.3 (trường hướng), 1.4 (tách biến), 1.5 (tuyến tính), 1.6 (exact, phần cuối mục), 2.3 (bậc hai hệ số hằng).
+
+**Mẹo cho đề trắc nghiệm dưới 30 câu:** bình quân mỗi câu chỉ có vài phút, nên không phải câu nào cũng cần giải trọn vẹn.
+
+- Thử đáp án ngược: thay từng đáp án vào phương trình, thường nhanh hơn giải từ đầu.
+- Có điều kiện đầu thì thay t = t₀ vào các đáp án trước. Thường loại được 2–3 đáp án ngay.
+- Câu ổn định chỉ cần xét dấu f(y), không cần giải phương trình.
+- Câu exact chỉ cần so M_y với N_x. Câu "tìm k" thì cho hai đạo hàm bằng nhau rồi giải ra k.
+- Câu bậc hai: từ Δ biết ngay dạng nghiệm (e mũ, cos/sin, hay t·e mũ) và loại được đáp án sai dạng.
+- Câu giới hạn t → ∞: cho số hạng mũ âm bằng 0, rồi kiểm tra bằng ý nghĩa vật lý (ví dụ bể muối: nồng độ vào × thể tích).
 
 ## Lỗi thường gặp và mẹo làm bài
 
@@ -159,12 +208,12 @@ Phần lớn điểm bị mất ở các bước đại số, ít khi do sai ph�
 
 ## Kế hoạch ôn 7 ngày
 
-Mỗi ngày một dạng bài, khoảng 1.5–2 giờ. Ngày 7 là ngày sát kỳ thi. Nếu còn ít ngày hơn thì gộp ngày 1 với 2, và ngày 5 với 6.
+Mỗi ngày một dạng bài, khoảng 1.5–2 giờ. Ngày 7 là ngày sát kỳ thi. Nếu còn ít ngày hơn thì gộp ngày 1 với 2. Không nên cắt ngày 6, vì bậc hai chiếm 3/10 lecture.
 
 - [ ] Ngày 1: Lecture 2–3. Phân loại, trường hướng, cân bằng và ổn định. Làm bài 1, 8 và ví dụ y' = (y² − y − 2)(1 − y)² trong slide.
 - [ ] Ngày 2: Lecture 4. Tách biến. Làm bài 2, 3 và 5–6 bài trong sách.
 - [ ] Ngày 3: Lecture 5. Thừa số tích phân và ôn tích phân từng phần. Làm bài 4, 5 và 5–6 bài trong sách.
 - [ ] Ngày 4: Lecture 6. Exact. Làm bài 6, 7 và 5–6 bài trong sách.
 - [ ] Ngày 5: Lecture 7. Bể muối và lãi kép. Làm lại toàn bộ ví dụ bể muối (a)–(e) trong slide và bài 9.
-- [ ] Ngày 6: Lecture 8–10 nếu có trong phạm vi. Làm bài 10–12. Nếu không thi phần này thì dùng ngày để làm bài hỗn hợp.
+- [ ] Ngày 6: Lecture 8–10. Phương trình đặc trưng, nghiệm phức, nghiệm kép, giảm bậc. Làm bài 10–12 và mức 2 trong sách (Zill 4.2, 4.3).
 - [ ] Ngày 7: Tự thi thử 90 phút với 6–8 bài trộn lẫn, không ghi dạng bài. Sau đó xem lại bảng lỗi thường gặp.
